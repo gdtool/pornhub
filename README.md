@@ -16,8 +16,7 @@ cookie 默认使用空用户的cookie,可自行替换自己的账号cookie,作�
 
 
 # 联系方式
-<img src="img/1.png" width="240" height="84">![软件](img/exe.png)
-<img src="img/p2.png" width="240" height="84">![软件](img/p2.png)
+<img src="img/1.png" width="240" height="84">![软件](img/exe.png)![软件](img/p2.png)
 
 
 当前为普通版本 不支持断点续传功能
