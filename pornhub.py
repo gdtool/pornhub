@@ -2,6 +2,7 @@
 import os
 import re
 import time
+
 import requests
 
 
@@ -45,13 +46,6 @@ class Pornhub():
             print(e)
 
 
-download_urls = [
-    "https://cn.pornhub.com/view_video.php?viewkey=ph5b7346e7227b6",
-    "https://cn.pornhub.com/view_video.php?viewkey=ph5b66ffdda98ba",
-    "https://cn.pornhub.com/view_video.php?viewkey=ph5e62cb456ca62"
-
-]
-
 down_path = "D:/ph/other"
 
 
@@ -61,6 +55,11 @@ def random_header():
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36'
     }
 
+
+download_urls = [
+    "https://cn.pornhub.com/view_video.php?viewkey=ph5ebbe3985a3fd",
+    "https://cn.pornhub.com/view_video.php?viewkey=ph5dc135a0b5f78"
+]
 
 if __name__ == '__main__':
     start_time = time.time()
