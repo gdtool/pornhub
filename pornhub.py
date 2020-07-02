@@ -58,11 +58,9 @@ def random_header():
 
 download_urls = [
     "https://cn.pornhub.com/view_video.php?viewkey=ph5ebbe3985a3fd",
-    "https://cn.pornhub.com/view_video.php?viewkey=ph5dc135a0b5f78"
+    "https://cn.pornhub.com/view_video.php?viewkey=ph5dc135a0b5f78",
+    "https://cn.pornhub.com/view_video.php?viewkey=ph5c33a2296e92d"
 ]
-
-
-
 
 if __name__ == '__main__':
     start_time = time.time()
