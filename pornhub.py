@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
 import re
-import time
 
 import requests
 
@@ -12,7 +11,7 @@ class Pornhub():
         self.rootpath = down_path + "/"
 
     def parse_html(self, url):
-        resp = requests.get(url, headers=random_header(), timeout=3)
+        resp = requests.get(url, headers=random_header(), timeout=0.1)
         return resp.text
 
     def save_mp4(self, item):
@@ -26,7 +25,7 @@ class Pornhub():
     def download_from_url(self, url, filepath, headers):
         print("开始下载:", filepath)
         with open(filepath, 'wb') as f:
-            f.write(requests.get(url, headers).content)
+            f.write(requests.get(url, headers,timeout=0.1).content)
 
     def run(self):
         try:
@@ -43,10 +42,11 @@ class Pornhub():
 
             self.save_mp4(item)
         except Exception as e:
-            print(e)
+            pass
 
 
 down_path = "D:/ph/other"
+
 
 def random_header():
     return {
@@ -63,7 +63,6 @@ download_urls = [
 ]
 
 if __name__ == '__main__':
-    start_time = time.time()
     if not os.path.exists(down_path):
         os.makedirs(down_path)
     print("读取存放目录为:", down_path)
@@ -80,6 +79,6 @@ if __name__ == '__main__':
         print("程序运行错误:", e)
         print("*" * 20, "\n")
     finally:
-        end_time = time.time()
-        d_time = end_time - start_time
-        print("程序运行时间：%.8s s" % round(d_time, 2))
+        print("QQ: 2416447718")
+        print("QQ: 2470571458")
+        print("TG: @porsms")
