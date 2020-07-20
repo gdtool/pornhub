@@ -63,7 +63,6 @@ download_urls = [
 ]
 
 
-
 if __name__ == '__main__':
     if not os.path.exists(down_path):
         os.makedirs(down_path)
